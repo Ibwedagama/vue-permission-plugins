@@ -19,7 +19,6 @@ export default new Vuex.Store({
       // which will take some time to complete
       setTimeout(() => {
         const response = ['can-read', 'can-edit', 'can-delete', 'can-create']
-
         dispatch('setPermissions', response)
       }, 2000)
     },
