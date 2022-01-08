@@ -1,5 +1,5 @@
 export default {
-  install(Vue) {
+  install(Vue, options) {
     Vue.prototype.$permission = function(value) {
       const permissions = this.$store.state.permissions;
 
